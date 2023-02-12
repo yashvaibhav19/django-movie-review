@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Taja Khabar</title>
+</head>
+<body>
+    <h1>News should be viewed LIVE</h1>
+    {% for news in newss %}
+        <h4>{{ news.headline }}</h4>
+        <p>{{ news.body }}</p>
+    {% endfor %}
+    <h6>Because the opposite of LIVE is EVIL</h6>
+</body>
+</html>
